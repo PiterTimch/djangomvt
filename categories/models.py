@@ -5,4 +5,3 @@ class Category(models.Model):
     slug = models.SlugField(unique=True)
     image = models.ImageField(upload_to='category_images/', blank=True, null=True)
 
-# Create your models here.
